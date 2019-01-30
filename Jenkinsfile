@@ -37,7 +37,7 @@ pipeline {
       environment {
         DPLYMNT_HOST=''
         DPLYMNT_PORT=''
-        STAGE=getStage()
+        //STAGE=getStage()
         BRANCH_ENV=getGitbranchEnv()
       }  
       steps {
