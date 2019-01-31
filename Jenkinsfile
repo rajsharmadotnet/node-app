@@ -21,7 +21,7 @@ pipeline {
   stages {
     stage('Cleaning and set up') {
       steps {
-        echo 'cleaning up yes'
+        echo 'cleaning up'
       }
     }
     stage('Non Functional Testing') {
