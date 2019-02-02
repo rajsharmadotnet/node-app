@@ -19,7 +19,7 @@ def getGitbranchEnv(){
 pipeline {
   agent any
   stages {
-    stage('Cleaning and set up') {
+    stage('Cleaning and set up yes') {
       steps {
         echo 'cleaning up'
       }
