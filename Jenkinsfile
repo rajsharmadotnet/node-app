@@ -19,7 +19,10 @@ def getGitbranchEnv(){
 pipeline {
   agent any
   stages {
-    stage('Cleaning and set up yes ') {
+
+
+    stage('Cleaning and set up yes') {
+
       steps {
         echo 'cleaning up'
       }
@@ -28,7 +31,11 @@ pipeline {
       parallel {
         stage('Unit Test') {
           steps {
+
+
             echo 'Running Unit Test'
+
+
           }
         }
       }
