@@ -21,7 +21,7 @@ pipeline {
   stages {
 
 
-    stage('Cleaning and set up yes') {
+    stage('Cleaning and set up') {
 
       steps {
         echo 'cleaning up'
